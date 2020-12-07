@@ -1,0 +1,4216 @@
+{
+  "intents": [
+    {
+      "intent": "ADHD",
+      "examples": [
+        {
+          "text": "careless"
+        },
+        {
+          "text": "I am feeling restless",
+          "mentions": [
+            {
+              "entity": "ADHD",
+              "location": [
+                13,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "restless"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bipolar_Disorder",
+      "examples": [
+        {
+          "text": "feeling restless",
+          "mentions": [
+            {
+              "entity": "Bipolar_Disorder",
+              "location": [
+                8,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I am feeling high",
+          "mentions": [
+            {
+              "entity": "Bipolar_Disorder",
+              "location": [
+                13,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "sad"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Depression",
+      "examples": [
+        {
+          "text": "depressed"
+        },
+        {
+          "text": "I am feeling scared",
+          "mentions": [
+            {
+              "entity": "Depression",
+              "location": [
+                13,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I am having suicidal thoughts",
+          "mentions": [
+            {
+              "entity": "Depression",
+              "location": [
+                12,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "lazy"
+        },
+        {
+          "text": "sad"
+        },
+        {
+          "text": "tired"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Diagonise_Generalised_Anxiety_Disorder",
+      "examples": [
+        {
+          "text": "breathless"
+        },
+        {
+          "text": "I am feeling scared",
+          "mentions": [
+            {
+              "entity": "Generalised_Anxiety_Disorder",
+              "location": [
+                13,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I am lost"
+        },
+        {
+          "text": "I am stressed"
+        },
+        {
+          "text": "upset"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "Panic_Disorder",
+      "examples": [
+        {
+          "text": "I am feeling dizzy",
+          "mentions": [
+            {
+              "entity": "Panic_Attack",
+              "location": [
+                13,
+                18
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Positive",
+      "examples": [
+        {
+          "text": "awesome"
+        },
+        {
+          "text": "Confident"
+        },
+        {
+          "text": "excited"
+        },
+        {
+          "text": "fun"
+        },
+        {
+          "text": "good"
+        },
+        {
+          "text": "great"
+        },
+        {
+          "text": "happy"
+        },
+        {
+          "text": "hope"
+        },
+        {
+          "text": "interest"
+        },
+        {
+          "text": "joy"
+        },
+        {
+          "text": "jubillient"
+        },
+        {
+          "text": "love"
+        },
+        {
+          "text": "okay"
+        },
+        {
+          "text": "Okayish"
+        },
+        {
+          "text": "pride"
+        },
+        {
+          "text": "serenity"
+        }
+      ],
+      "description": "User is happy"
+    },
+    {
+      "intent": "positive_not_sharing",
+      "examples": [
+        {
+          "text": "cool"
+        },
+        {
+          "text": "great"
+        },
+        {
+          "text": "have nobody to share"
+        },
+        {
+          "text": "nothing"
+        },
+        {
+          "text": "tell"
+        },
+        {
+          "text": "wanted to share"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "positive_sharing",
+      "examples": [
+        {
+          "text": "A in exam"
+        },
+        {
+          "text": "got a job"
+        },
+        {
+          "text": "my crush accepted my response"
+        },
+        {
+          "text": "passed my exam"
+        },
+        {
+          "text": "raise in my salary"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Psycological_Disorder",
+      "examples": [
+        {
+          "text": "Bipolar Disorder"
+        },
+        {
+          "text": "Depression"
+        },
+        {
+          "text": "Generalised Anxiety"
+        },
+        {
+          "text": "Mood Disorder"
+        },
+        {
+          "text": "Obsessive Compulsive Disorder"
+        },
+        {
+          "text": "Panic Disorder"
+        },
+        {
+          "text": "Post Traumatic Stress Disorder"
+        }
+      ],
+      "description": "Common Occurring Psychological Disorder"
+    },
+    {
+      "intent": "PTSD",
+      "examples": [
+        {
+          "text": "I am feeling scared",
+          "mentions": [
+            {
+              "entity": "PTSD",
+              "location": [
+                13,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I am having suicidal thoughts",
+          "mentions": [
+            {
+              "entity": "PTSD",
+              "location": [
+                12,
+                20
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "solution",
+      "examples": [
+        {
+          "text": "better"
+        },
+        {
+          "text": "help me"
+        },
+        {
+          "text": "suggest some methods for calming down"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "therapists",
+      "examples": [
+        {
+          "text": "7 cups"
+        },
+        {
+          "text": "Inner Hour"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "User_agrees_share",
+      "examples": [
+        {
+          "text": "Absolutely"
+        },
+        {
+          "text": "Fine"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "Okay"
+        },
+        {
+          "text": "Sure"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "UserRespone_Affirmative",
+      "examples": [
+        {
+          "text": "Aboslutely"
+        },
+        {
+          "text": "Absolutely"
+        },
+        {
+          "text": "for sure"
+        },
+        {
+          "text": "kind of"
+        },
+        {
+          "text": "Ok"
+        },
+        {
+          "text": "sort of"
+        },
+        {
+          "text": "Sure"
+        },
+        {
+          "text": "Umm yea"
+        },
+        {
+          "text": "yea"
+        },
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "UserResponse_Affirmative_for_therapist",
+      "examples": [
+        {
+          "text": "sure"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "UserResponse_Negative",
+      "examples": [
+        {
+          "text": "Absolutely Not"
+        },
+        {
+          "text": "Nah"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Not interested"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "User_Response_Negative_Therapist",
+      "examples": [],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "ADHD",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "acting without thinking",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "appearing forgetful or losing things",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "being unable to stick to tasks that are tedious",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "constantly changing activity or task",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "constantly fidgeting",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "difficulty organising tasks",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "easily distracted",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "excessive physical movement",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "excessive talking",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lack of concentration",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "little or no sense of danger",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "making careless mistakes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "restless",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "short attention span",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "unable to listen to or carry out instructions",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "unable to sit still",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "unable to wait their turn",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Bipolar_Disorder",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dizzy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "easily distracted",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "having a decreased need for sleep",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "high",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "impulsive",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "over happy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "restless",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "suddenly taking unnecessary high end risk",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "talking very fast, often with racing thoughts",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Depression",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "avoiding friends and family",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "depressed",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "feeling sad or hopeless for long periods of time",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "feeling severe fatigue or lack of energy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "having a significant change in appetite",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lack of concentration",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lack of energy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lazy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "losing interest in activities that you once enjoyed",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "obsessed with death",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "problem with memory",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "scared",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "stressed",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "suicidal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "thinking of suicide",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "upset",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Generalised_Anxiety_Disorder",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "anxious",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "constant feeling on edge",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "difficulty concentrating",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dizziness",
+          "synonyms": [
+            "drowsiness",
+            "headaches",
+            "lightheadedness",
+            "palpitations",
+            "tiredness"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dread",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dry mouth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "excessive sweating",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "feeling sick",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "headache",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lost",
+          "synonyms": [
+            "beat",
+            "beaten",
+            "defeated",
+            "fell",
+            "finished",
+            "losing",
+            "missed"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "muscle ache",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "not well",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "restlessness",
+          "synonyms": [
+            "despondency",
+            "hopelessness",
+            "impatience",
+            "irritability",
+            "sleeplessness"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "scared",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shortness of breath",
+          "synonyms": [
+            "breathlessness"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "stomach ache",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "trembling or shaking",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Panic_Attack",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Abdominal cramping",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chest pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chills",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "crying",
+          "synonyms": [
+            "cries",
+            "cry",
+            "hysterically",
+            "moaning",
+            "screaming",
+            "shouts",
+            "shrieks",
+            "sobbing",
+            "sobs",
+            "wailing",
+            "weeping",
+            "whimpering"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dizziness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dizzy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fear of loss of control or death",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Feeling of unreality",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Headache",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hot flashes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nausea",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rapid heart rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sad",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sense of impending doom or danger",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shortness of breath or tightness in your throat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sweating",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Trembling or shaking",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "PTSD",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "aggressive behavior",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Always being on guard for danger",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Avoiding places, activities or people associated with trauma",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Being easily startled or frightened",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Difficulty experiencing positive emotions",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Difficulty maintaining close relationships",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Feeling detached from family and friends",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Feeling emotionally numb",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hopelessness about the future",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lack of interest in activities you once enjoyed",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Memory problems",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Negative thoughts about yourself",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Overwhelming guilt or shame",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Recurrent, unwanted distressing memories of the traumatic event",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Reliving the traumatic event as if it were happening again",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "scared",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Self-destructive behavior",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "suicidal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Trouble concentrating",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Trouble sleeping",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Upsetting dreams or nightmares about the traumatic event",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "User_Affirmative",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "absolutely",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kind off",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "absolutely",
+            "aye",
+            "certainly",
+            "completely",
+            "definitely",
+            "downright",
+            "obviously",
+            "really",
+            "totally",
+            "truly",
+            "undeniably",
+            "utterly",
+            "weirdly",
+            "yay"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "User_Not_Affirmative",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Nah",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "hardly",
+            "neither",
+            "never",
+            "none",
+            "not",
+            "nothing",
+            "rarely",
+            "scarcely",
+            "seldom",
+            "without"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "To keep the user engaged",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Awesome!Would you like to continue the conversation"
+              },
+              {
+                "text": "Great!Would you like to continue the conversation"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1606649393514",
+      "conditions": "#Positive || #positive_sharing",
+      "dialog_node": "node_10_1606650909824"
+    },
+    {
+      "type": "standard",
+      "title": "Further Action in case of negative response for positive mood",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am very happy for you. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1606651369489",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#positive_not_sharing || #UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_10_1606651470620"
+    },
+    {
+      "type": "standard",
+      "title": "End",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It was nice talking with you! Hope to meet you again"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1,
+            "typing": true,
+            "response_type": "pause"
+          }
+        ]
+      },
+      "conditions": "#General_Ending || #positive_not_sharing || #Positive || #UserRespone_Affirmative || #UserResponse_Negative",
+      "dialog_node": "node_10_1606656589432",
+      "previous_sibling": "node_3_1606738258244"
+    },
+    {
+      "type": "standard",
+      "title": "Panic Attack 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you feeling breathless?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606673575571",
+      "conditions": "#UserRespone_Affirmative || #Panic_Disorder || @Panic_Attack || @User_Affirmative",
+      "dialog_node": "node_10_1606673877472"
+    },
+    {
+      "type": "standard",
+      "title": "Panic Attack 5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you feeling a sense of immovability?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606674103226",
+      "conditions": "#UserRespone_Affirmative || #Panic_Disorder || @Panic_Attack || @User_Affirmative",
+      "dialog_node": "node_10_1606674163977"
+    },
+    {
+      "type": "standard",
+      "title": "BPD_Diagonosis_2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you easily distracted?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1606710157384",
+      "conditions": "@Bipolar_Disorder || #Bipolar_Disorder || #UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_10_1606710243834"
+    },
+    {
+      "type": "standard",
+      "title": "GAD_Diagonosis_5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you finding it difficult to concentrate on your task at the moment?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606711930339",
+      "conditions": "#Diagonise_Generalised_Anxiety_Disorder || @Generalised_Anxiety_Disorder || #UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_10_1606712013722"
+    },
+    {
+      "type": "standard",
+      "title": "GAD_Diagonised_4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's try incorporating some lifestyle changes. This is a slow process and won't provide immediate relief but will help in the longer run. Let's incorporate Regular exercise in our everyday life. Not excessive may be walking to places. Same time, same place to establish a routine. A healthy diet and plenty of sleep. Also, avoid stimulants, such as coffee and some over-the-counter medications, such as diet pills and caffeine pills. Did this help?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1606712612787",
+      "conditions": "@Generalised_Anxiety_Disorder || #UserResponse_Negative || #Diagonise_Generalised_Anxiety_Disorder || @User_Not_Affirmative",
+      "dialog_node": "node_10_1606712822321"
+    },
+    {
+      "type": "standard",
+      "title": "Depression_Diagonised 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you having a significant change in appetite?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606715021141",
+      "conditions": "#UserRespone_Affirmative || @Depression || #Depression || @User_Affirmative",
+      "dialog_node": "node_10_1606716254546"
+    },
+    {
+      "type": "standard",
+      "title": "Depression_Result_Diagonised 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's try uplifting your mood. Let's schedule pleasant Events.\nDon’t wait for yourself to be “in the mood.” For example, give yourself permission for a 30-minute “vacation” or schedule a healthy hobby every day. Just remember to do these activities with the right attitude This practice is sometimes called mindfulness. Did it help?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606716406666",
+      "conditions": "#Depression || @Depression || #UserResponse_Negative",
+      "dialog_node": "node_10_1606716702656"
+    },
+    {
+      "type": "standard",
+      "title": "Depression_Result_Diagonised 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's try exercise and, eat right too.\nDoing moderate exercise about five times a week (30 minutes a pop) can dramatically help your mood.  Moderate exercise is a level of activity where it is difficult to sing from your diaphragm while doing it.  Also, pay attention to how the type of food or drink you’re eating influences your mood. Did it work? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1606716702656",
+      "conditions": "#UserResponse_Negative || #Depression || @Depression || @User_Not_Affirmative",
+      "dialog_node": "node_10_1606716827254"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 4 worked ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad I could Help :-)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1606710990240",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_10_1606733500048",
+      "previous_sibling": "node_7_1606722215850"
+    },
+    {
+      "type": "standard",
+      "title": "Therapist Requested",
+      "parent": "node_4_1606674712282",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1606726426203"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_10_1607179038845",
+      "previous_sibling": "node_7_1606738400914"
+    },
+    {
+      "type": "standard",
+      "title": "Therapist Denied",
+      "parent": "node_3_1606713150731",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1606738258244"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_10_1607184547828",
+      "previous_sibling": "node_9_1607184504915"
+    },
+    {
+      "type": "standard",
+      "title": "Is not GAD ",
+      "output": {},
+      "parent": "node_7_1606711591373",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1606713235620"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_11_1606734158633",
+      "previous_sibling": "node_4_1606711681497"
+    },
+    {
+      "type": "standard",
+      "title": "Response of the User",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How may I help?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606649152868",
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_1_1606651369489"
+    },
+    {
+      "type": "standard",
+      "title": "PTSD_Diagonised_3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's try Aroma Therapy this time. Cool? The most common way to use essential oils is to inhale them, either directly out of the bottle or by using a diffuser or humidifier. You can also dilute essential oils with a carrier oil and apply it directly your skin. Or you can get creative and add the mixture to a body wash, shampoo, or bath. Orange essential oil may be effective in reducing symptoms of chronic stress and anxiety associated with PTSD. Did it work?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606714176317",
+      "conditions": "#PTSD || @PTSD || #UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_1_1606714376019"
+    },
+    {
+      "type": "standard",
+      "title": "Depression_Result_Diagonised 5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Did it not help? Would you like to talk to a therapist?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1606716963958",
+      "conditions": "#UserResponse_Negative || @Depression || #Depression || @User_Not_Affirmative",
+      "dialog_node": "node_1_1606717446215"
+    },
+    {
+      "type": "standard",
+      "title": "Solution worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Glad I could help."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1606674163977",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_1_1606732121309",
+      "previous_sibling": "node_2_1606674215824"
+    },
+    {
+      "type": "standard",
+      "title": "Solution2 worked ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Glad I could help."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1606674215824",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_1_1606732874041",
+      "previous_sibling": "node_6_1606674353877"
+    },
+    {
+      "type": "standard",
+      "title": "Anything Else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I did not understand. Could You Describe how you are feeling?"
+              },
+              {
+                "text": "Please be sure of your spelling"
+              },
+              {
+                "text": "I am sorry could you repeat?"
+              },
+              {
+                "text": "Could you rephrase that"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1607176435195",
+      "previous_sibling": "node_10_1606656589432"
+    },
+    {
+      "type": "standard",
+      "title": "To jump from Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Did you request for a therapist?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1607176435195",
+      "conditions": "#UserRespone_Affirmative",
+      "dialog_node": "node_1_1607177198236"
+    },
+    {
+      "type": "standard",
+      "title": "Therapist Denied",
+      "parent": "node_7_1606711277143",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1606738258244"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_1_1607183845800",
+      "previous_sibling": "node_2_1607183842204"
+    },
+    {
+      "type": "standard",
+      "title": "Therapist Denied",
+      "parent": "node_7_1606714853551",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1606738258244"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_1_1607185036081",
+      "previous_sibling": "node_5_1607185033564"
+    },
+    {
+      "type": "standard",
+      "title": "Is not GAD",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1606711681497",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1606713235620"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_12_1606734302125",
+      "previous_sibling": "node_8_1606711930339"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 2 worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Awesome...Wish you the very best for your future endevour"
+              },
+              {
+                "text": "Glad I could Help :-)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606712467044",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_13_1606734451755",
+      "previous_sibling": "node_5_1606712612787"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 3 worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Awesome...Wish you the very best for your future endevour"
+              },
+              {
+                "text": "Glad I could Help :-)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1606712612787",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_14_1606734509782",
+      "previous_sibling": "node_10_1606712822321"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 4 worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Awesome...Wish you the very best for your future endevour"
+              },
+              {
+                "text": "Glad I could Help :-)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1606712822321",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_15_1606734721388",
+      "previous_sibling": "node_3_1606713150731"
+    },
+    {
+      "type": "standard",
+      "title": "Is not PTSD",
+      "output": {},
+      "parent": "node_4_1606713555703",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1606714924974"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_16_1606735203313",
+      "previous_sibling": "node_4_1606713617269"
+    },
+    {
+      "type": "standard",
+      "title": "Is not PTSD",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1606713617269",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1606714924974"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_17_1606735225827",
+      "previous_sibling": "node_9_1606713676624"
+    },
+    {
+      "type": "standard",
+      "title": "Is not PTSD",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606713676624",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1606714924974"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_18_1606735246384",
+      "previous_sibling": "node_7_1606713789714"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 2 worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Glad could help :-)"
+              },
+              {
+                "text": "Awesome!!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606714176317",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_19_1606735413902",
+      "previous_sibling": "node_1_1606714376019"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 3 worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Glad could help :-)"
+              },
+              {
+                "text": "Awesome!!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1606714376019",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_20_1606735472920",
+      "previous_sibling": "node_8_1606714627264"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 4 worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Glad could help :-)"
+              },
+              {
+                "text": "Awesome!!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606714627264",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_21_1606735496230",
+      "previous_sibling": "node_7_1606714853551"
+    },
+    {
+      "type": "standard",
+      "title": "Response of the user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606649152868",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1606650909824"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_2_1606649393514",
+      "previous_sibling": "node_1_1606651369489"
+    },
+    {
+      "type": "standard",
+      "title": "Result-Panic Attack",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You are undergoing a Panic Attack. Do not worry, We will help you.                                     \nFocus on taking deep breaths in and out through your mouth, feeling the air slowly fill your chest and belly and then slowly leave them again. Breathe in for a count of four, hold for a second, and then breathe out for a count of four. Repeat this till you feel your heart rate return back to normal. Are you feeling better"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1606674163977",
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_2_1606674215824"
+    },
+    {
+      "type": "standard",
+      "title": "How are you currently feeling?(PTSD)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you having recurrent, unwanted distressing memories of the traumatic event?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606649209767",
+      "conditions": "@PTSD || #PTSD || #UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_2_1606713235620",
+      "previous_sibling": "node_8_1606711494181"
+    },
+    {
+      "type": "standard",
+      "title": "Depression_Result_Diagonised 4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's so try this. Let's find ways to make ourself better, the best way to do so would be to find small ways to be of service to others. Find personal meaning by serving something larger than yourself. Remember service doesn’t have to be big to count. Just listen to their problems or help someone bring groceries home  or hold door open for someone. Just small tasks. Did it work?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1606716827254",
+      "conditions": "#Depression || #UserResponse_Negative || @Depression || @User_Not_Affirmative",
+      "dialog_node": "node_2_1606716963958"
+    },
+    {
+      "type": "standard",
+      "title": "ADHD_Diagonosis_5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Did not reach satisfying results from performing the above activities. Would you like to consult a therapist? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606718779349",
+      "conditions": "#ADHD || @ADHD || #UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_2_1606718993470"
+    },
+    {
+      "type": "standard",
+      "title": "Is not Panic Attack",
+      "parent": "node_10_1606673877472",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1606710157384"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_2_1606731272371",
+      "previous_sibling": "node_3_1606674021549"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 3 worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Glad I could help."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606674353877",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_2_1606732908034",
+      "previous_sibling": "node_3_1606674499007"
+    },
+    {
+      "type": "standard",
+      "title": "Is not PTSD",
+      "parent": "node_2_1606713235620",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1606714924974"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_2_1606735132357",
+      "previous_sibling": "node_4_1606713555703"
+    },
+    {
+      "type": "standard",
+      "title": "Is not ADHD solution 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey, Do not worry, there are multiple ways by which you can improve your attention. It is seen that chewing gum improves attention and performance at work. Chewing gum also appears to increase alertness and lower stress. While chewing gum may not have a long-lasting effect on your ability to concentrate, it’s an easy way to improve your attention span in a pinch."
+              },
+              {
+                "text": "Distraction, something which we all can do so easily.  We try all heavyweight solutions like remembering things, trying to do something quirky to associate that quirkiness. Yet, we forget the simplest of all solutions Staying hydrated is important for your body and mind. Dehydration can worsen your ability to think.\nThis even includes mild dehydration you may not even notice. Being dehydrated for just two hours can impair your focus."
+              },
+              {
+                "text": "A wandering mind, a major problem in today's world. The quickest way to bring it back to the present is by keeping it engaged. If you struggle to pay attention during meetings or lectures, try asking questions or taking notes. Evidence shows that taking notes by hand is more effective in improving attention and listening than using a laptop or other device, which can be distracting."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606717668250",
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_2_1606737120624",
+      "previous_sibling": "node_4_1606717731505"
+    },
+    {
+      "type": "standard",
+      "title": "Therapist Requested",
+      "parent": "node_7_1606711277143",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1606726426203"
+      },
+      "conditions": "@User_Affirmative || #UserRespone_Affirmative",
+      "dialog_node": "node_2_1607183842204"
+    },
+    {
+      "type": "standard",
+      "title": "Is not Depression",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606714924974",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1606717573828"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_22_1606735645710",
+      "previous_sibling": "node_3_1606715021141"
+    },
+    {
+      "type": "standard",
+      "title": "Is not Depression",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1606716254546",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1606717573828"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_23_1606735688938",
+      "previous_sibling": "node_9_1606716311771"
+    },
+    {
+      "type": "standard",
+      "title": "Is not Depression",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606716311771",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1606717573828"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_24_1606735709633",
+      "previous_sibling": "node_9_1606716357941"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 2 Worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad could help :-)"
+              },
+              {
+                "text": "Awesome!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1606716702656",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_25_1606735776094",
+      "previous_sibling": "node_10_1606716827254"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 3 Worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad could help :-)"
+              },
+              {
+                "text": "Awesome!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1606716827254",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_26_1606735797975",
+      "previous_sibling": "node_2_1606716963958"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 4 Worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad could help :-)"
+              },
+              {
+                "text": "Awesome!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1606716963958",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_27_1606735820635",
+      "previous_sibling": "node_1_1606717446215"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 2 worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Awesome! Now remember to keep applying this solution."
+              },
+              {
+                "text": "Great! Glad could help :-)"
+              },
+              {
+                "text": "I am so happy. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606717916169",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_28_1606738198089",
+      "previous_sibling": "node_4_1606718409159"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 3 worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Awesome! Now remember to keep applying this solution."
+              },
+              {
+                "text": "Great! Glad could help :-)"
+              },
+              {
+                "text": "I am so happy. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1606718409159",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_29_1606738211476",
+      "previous_sibling": "node_8_1606718569974"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 4 worked ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Awesome! Now remember to keep applying this solution."
+              },
+              {
+                "text": "Great! Glad could help :-)"
+              },
+              {
+                "text": "I am so happy. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606718569974",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_30_1606738228466",
+      "previous_sibling": "node_8_1606718779349"
+    },
+    {
+      "type": "standard",
+      "title": "Panic Attack 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you having chest pain?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1606673877472",
+      "conditions": "#UserRespone_Affirmative || #Panic_Disorder || @Panic_Attack || @User_Affirmative",
+      "dialog_node": "node_3_1606674021549"
+    },
+    {
+      "type": "standard",
+      "title": "Panic Attack 4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you feeling a sense of detachment from reality"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606674021549",
+      "conditions": "#UserRespone_Affirmative || #Panic_Disorder || @Panic_Attack || @User_Affirmative",
+      "dialog_node": "node_3_1606674103226"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's try Progressive Muscle Relaxing techniques. Tensing one muscle at a time, and then completely releasing the tension until every muscle in the body is relaxed. Repeat this process till you feel calm."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606674353877",
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_3_1606674499007"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Still, not feeling better. Let's get physically active. Start speed walking if possible or some aerobic exercise like running, jogging, swimming. Something which would make you physically exhausted.  It will help you focus on other activity completely. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606674499007",
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_3_1606674573501"
+    },
+    {
+      "type": "standard",
+      "title": "Request for a Therapist due to GAD",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to contact a therapist to discuss your worries?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1606712822321",
+      "conditions": "#Diagonise_Generalised_Anxiety_Disorder || @Generalised_Anxiety_Disorder || #UserResponse_Negative",
+      "dialog_node": "node_3_1606713150731"
+    },
+    {
+      "type": "standard",
+      "title": "Depression_Diagnosed 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you losing interest in activities that you once enjoyed?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606714924974",
+      "conditions": "#UserRespone_Affirmative || #Depression || @Depression || @User_Affirmative",
+      "dialog_node": "node_3_1606715021141"
+    },
+    {
+      "type": "standard",
+      "title": "Is not Panic Attack",
+      "parent": "node_10_1606673877472",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1606710157384"
+      },
+      "conditions": "#UserResponse_Negative",
+      "dialog_node": "node_3_1606731106749",
+      "previous_sibling": "node_2_1606731272371"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 4 worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Glad I could help."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606674499007",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_3_1606733046318",
+      "previous_sibling": "node_3_1606674573501"
+    },
+    {
+      "type": "standard",
+      "title": "Is not GAD",
+      "parent": "node_8_1606711930339",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1606713235620"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_3_1606734342127",
+      "previous_sibling": "node_10_1606712013722"
+    },
+    {
+      "type": "standard",
+      "title": "Therapist Denied",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry Couldn't be of much help :-("
+              },
+              {
+                "text": "I am extremely sorry I could not help you. Hope, you are able to find solution to your problem"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_3_1606738258244",
+      "previous_sibling": "node_9_1606726426203"
+    },
+    {
+      "type": "standard",
+      "title": "General Greeting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, How are you feeling?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_3_1607168307049",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Therapist Requested",
+      "parent": "node_1_1606717446215",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1606726426203"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_3_1607180089401"
+    },
+    {
+      "type": "standard",
+      "title": "Would not wish to continue",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! How may I help you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1606650909824",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1606651470620"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_4_1606657748061",
+      "previous_sibling": "node_6_1606657696882"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Still not feeling better? Would you like to talk with a human therapist to share your worries and reach a better solution? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606674573501",
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_4_1606674712282"
+    },
+    {
+      "type": "standard",
+      "title": "How are you currently feeling?(BPD)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you have racing thoughts which make you talk fast?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606649209767",
+      "conditions": "@Bipolar_Disorder || #Bipolar_Disorder || #UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_4_1606710157384",
+      "previous_sibling": "node_6_1606673575571"
+    },
+    {
+      "type": "standard",
+      "title": "BPD_Diagonosis_4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you impulsive, which makes you overconfident in your ability?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606710314922",
+      "conditions": "@Bipolar_Disorder || #Bipolar_Disorder || #UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_4_1606710391478"
+    },
+    {
+      "type": "standard",
+      "title": "BPD_Diagonised_3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Not feeling good. Okay, Let's complete a task together? Pick up a piece of paper and pen or anything which lets you pen down your thoughts could be the notes app of your phone as well let's write down a short paragraph to capture our racing mind together? I will go first.  I am A.P.U and I love helping people. I love having conversations and eating chocolates. Now your turn. Just pen down the things flowing through your head. No need to think about it. Just give an outlet Feeling much calmer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606710774443",
+      "conditions": "#Bipolar_Disorder || #UserResponse_Negative || @Bipolar_Disorder || @User_Not_Affirmative",
+      "dialog_node": "node_4_1606710990240"
+    },
+    {
+      "type": "standard",
+      "title": "GAD_Diagonosis_3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you sweating profusely or excessively?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1606711591373",
+      "conditions": "#Diagonise_Generalised_Anxiety_Disorder || #UserRespone_Affirmative || @Generalised_Anxiety_Disorder || @User_Affirmative",
+      "dialog_node": "node_4_1606711681497"
+    },
+    {
+      "type": "standard",
+      "title": "PTSD_Diagonosis_2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you experiencing severe emotional distress or physical reactions to something that reminds you of the traumatic event?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1606713235620",
+      "conditions": "#PTSD || @PTSD || #UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_4_1606713555703"
+    },
+    {
+      "type": "standard",
+      "title": "PTSD_Diagonosis_3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you having negative thoughts about yourself, other people or the world?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1606713555703",
+      "conditions": "#PTSD || @PTSD || #UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_4_1606713617269"
+    },
+    {
+      "type": "standard",
+      "title": "ADHD_Diagonosis_3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you unable to listen to or carry out instructions? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606717668250",
+      "conditions": "#ADHD || @ADHD || #UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_4_1606717731505"
+    },
+    {
+      "type": "standard",
+      "title": "ADHD_Diagonised_2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sleep deprivation can increase symptoms of adult ADHD, reducing your ability to cope with stress and maintain focus during the day. Simple changes to daytime habits go a long way toward ensuring solid nightly sleep. This can be achieved by Avoiding caffeine late in the day, Exercising vigorously and regularly, but not within an hour of bedtime, Creating a predictable and quiet “bedtime” routine, including taking a hot shower or bath just before bed and sticking to a regular sleep-wake schedule, even on weekends. This helps your body to deal well with stress. Lack of sleep often increases our stimuli resulting in restlessness. Thus adequate sleep helps reduce ADHD. Did this work?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606717916169",
+      "conditions": "#ADHD || @ADHD || #UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_4_1606718409159"
+    },
+    {
+      "type": "standard",
+      "title": "Is not Panic Attack",
+      "parent": "node_3_1606674021549",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1606710157384"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_4_1606731988864",
+      "previous_sibling": "node_3_1606674103226"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 1 worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Awesome...Wish you the very best for your future endevour"
+              },
+              {
+                "text": "Glad I could Help :-)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606712119368",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_4_1606734410776",
+      "previous_sibling": "node_9_1606712467044"
+    },
+    {
+      "type": "standard",
+      "parent": "node_1_1606651369489",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1606649209767"
+      },
+      "conditions": "#ADHD || #Bipolar_Disorder || #Diagonise_Generalised_Anxiety_Disorder || #Depression || #Panic_Disorder || #PTSD || @ADHD || @Bipolar_Disorder || @Depression || @Generalised_Anxiety_Disorder || @Panic_Attack || @PTSD",
+      "dialog_node": "node_4_1607175165923",
+      "previous_sibling": "node_10_1606651470620"
+    },
+    {
+      "type": "standard",
+      "title": "Therapist Denied",
+      "parent": "node_2_1606718993470",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1606738258244"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_4_1607180231240",
+      "previous_sibling": "node_8_1607180202107"
+    },
+    {
+      "type": "standard",
+      "title": "GAD_Diagonosed_3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's try scheduling a worry session. Looking at the worst often makes us that the worst is not as dangerous or harmful as we are imagining it to be. Take 30 minutes to identify what’s bothering you and what you can do about it. Have your “worry session” at the same time every day. Don’t dwell on “what-ifs.” Focus on what actually makes you anxious. This will help you realise what exactly is making you anxious. More often than acknowledging our reason of fear makes it powerless. Let's try this. Did it work?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606712467044",
+      "conditions": "#UserResponse_Negative || #Diagonise_Generalised_Anxiety_Disorder || @Generalised_Anxiety_Disorder || @User_Not_Affirmative",
+      "dialog_node": "node_5_1606712612787"
+    },
+    {
+      "type": "standard",
+      "title": "How are you currently feeling?(ADHD)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you have a short attention span or are easily distracted?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606649209767",
+      "conditions": "#ADHD || @ADHD || #UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_5_1606717573828",
+      "previous_sibling": "node_8_1606714924974"
+    },
+    {
+      "type": "standard",
+      "title": "Is not Panic Attack",
+      "parent": "node_6_1606673575571",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1606710157384"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_5_1606731040129",
+      "previous_sibling": "node_10_1606673877472"
+    },
+    {
+      "type": "standard",
+      "title": "Is not Panic Attack",
+      "parent": "node_3_1606674103226",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1606710157384"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_5_1606732049128",
+      "previous_sibling": "node_10_1606674163977"
+    },
+    {
+      "type": "standard",
+      "title": "Is not BPD -3",
+      "output": {},
+      "parent": "node_10_1606710243834",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1606711494181"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_5_1606733212299",
+      "previous_sibling": "node_6_1606710314922"
+    },
+    {
+      "type": "standard",
+      "title": "Is not Depression",
+      "parent": "node_3_1606715021141",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1606717573828"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_5_1606735603524",
+      "previous_sibling": "node_10_1606716254546"
+    },
+    {
+      "type": "standard",
+      "title": "Did not Request for a therapist",
+      "parent": "node_1_1607177198236",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1606714924974"
+      },
+      "conditions": "#UserResponse_Negative",
+      "dialog_node": "node_5_1607177285026",
+      "previous_sibling": "node_9_1607177238659"
+    },
+    {
+      "type": "standard",
+      "title": "Is not GAD",
+      "parent": "node_10_1606712013722",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1606713235620"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_5_1607184371216",
+      "previous_sibling": "node_9_1606712119368"
+    },
+    {
+      "type": "standard",
+      "title": "Therapist Requested",
+      "parent": "node_7_1606714853551",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1606726426203"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_5_1607185033564"
+    },
+    {
+      "type": "standard",
+      "title": "Would like to continue",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1606650909824",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1606650909824"
+      },
+      "conditions": "#UserRespone_Affirmative || #Positive || #positive_not_sharing || @User_Affirmative",
+      "dialog_node": "node_6_1606657696882"
+    },
+    {
+      "type": "standard",
+      "title": "Are you feeling Dizzy(PA-1)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you feel the loss of control or sudden fear of death?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606649209767",
+      "conditions": "@Panic_Attack || #UserRespone_Affirmative || #Panic_Disorder || @User_Affirmative",
+      "dialog_node": "node_6_1606673575571"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK, let's try something else. Close your eyes and focus on the physical sensations you are familiar with, like digging your feet into the ground or feeling the texture of your jeans on your hands. Try feeling nothing else but that feeling.  Open your eyes only when you feel in control. Keep focusing on only one feeling till you are in control. Feeling Better?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1606674215824",
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_6_1606674353877"
+    },
+    {
+      "type": "standard",
+      "title": "BPD_Diagonosis_3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Have you suddenly noticed a decreased need for sleep?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1606710243834",
+      "conditions": "@Bipolar_Disorder || #Bipolar_Disorder || #UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_6_1606710314922"
+    },
+    {
+      "type": "standard",
+      "title": "BPD_Diagonised_2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's try some immediate remedy, OK? Try channelising your high energy into something else, such as their work or a hobby or project. Maybe a walk or a run. You can also go on a spontaneous cleaning spree of your house, sorting through your mess. This helps focus on the immediate work providing temporary relief. Consult your doctor for prescribed medication for long term solution. Did this provide immediate relief?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606722512348",
+      "conditions": "#Bipolar_Disorder || @Bipolar_Disorder || #UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_6_1606710774443"
+    },
+    {
+      "type": "standard",
+      "title": "Depression_Result_Diagonised 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You are suffering from Depression. Let me walk you through some activities to overcome depression.  Let's find workable goals which give you a sense of accomplishment. \nSomething you can control (i.e., it doesn’t depend on others)\nManageable (i.e., not overwhelming)\nRealistic for you (not for someone else)\nMeasurable (i.e., you know whether or not it is done or getting done)\nDid it work?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606716357941",
+      "conditions": "#Depression || #UserRespone_Affirmative || @Depression",
+      "dialog_node": "node_6_1606716406666"
+    },
+    {
+      "type": "standard",
+      "title": "ADHD_Diagonosis_5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you constantly fidget, unable to sit still, especially in calm or quiet surroundings?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606717806114",
+      "conditions": "#UserRespone_Affirmative || #ADHD || @ADHD || @User_Affirmative",
+      "dialog_node": "node_6_1606717854792"
+    },
+    {
+      "type": "standard",
+      "title": "ADHD_Diagonised",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You are diagnosed with ADHD(Attention-deficit/hyperactivity disorder). Do not worry, we will help you get through this. Whenever you feel restless, try channelising your energy into something positive or productive which is physically stimulating like exercising. Exercise can relieve stress, boost your mood, and calm your mind, helping work off the excess energy and aggression that can get in the way of relationships and feeling stable. Choose something vigorous and fun that you can stick with, like a team sport or working out with a friend. Did this help?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606717854792",
+      "conditions": "#UserRespone_Affirmative || @ADHD || #ADHD || @User_Affirmative",
+      "dialog_node": "node_6_1606717916169"
+    },
+    {
+      "type": "standard",
+      "title": "Is not BPD -4",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606710314922",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1606711494181"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_6_1606733253671",
+      "previous_sibling": "node_4_1606710391478"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 1 worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad I could Help :-)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606710453204",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_6_1606733346830",
+      "previous_sibling": "node_9_1606722512348"
+    },
+    {
+      "type": "standard",
+      "title": "BPD_Diagonosis_5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like  to consult a therapist?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1606722215850",
+      "conditions": "@Bipolar_Disorder || #Bipolar_Disorder || #UserResponse_Negative",
+      "dialog_node": "node_7_1606711277143"
+    },
+    {
+      "type": "standard",
+      "title": "GAD_Diagonosis_2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you feeling like you are on edge and any misstep would cause disastrous consequences?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606711494181",
+      "conditions": "#Diagonise_Generalised_Anxiety_Disorder || @Generalised_Anxiety_Disorder || #UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_7_1606711591373"
+    },
+    {
+      "type": "standard",
+      "title": "PTSD_Diagonosis_5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you being crushed by overwhelming guilt or shame or indulging in self-destructive behaviour, such as drinking too much or driving too fast?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606713676624",
+      "conditions": "#PTSD || #UserRespone_Affirmative || @PTSD || @User_Affirmative",
+      "dialog_node": "node_7_1606713789714"
+    },
+    {
+      "type": "standard",
+      "title": "PTSD_Therapist",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Did not help? Would you like to talk to a therapist?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606714627264",
+      "conditions": "#UserResponse_Negative || #PTSD || @PTSD || @User_Not_Affirmative",
+      "dialog_node": "node_7_1606714853551"
+    },
+    {
+      "type": "standard",
+      "title": "Bipolar_Diagonised_4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Stress is a major bipolar trigger. Do what you can to simplify your life and relieve stress in your work and personal life. See if your spouse, family members, and friends can help with household responsibilities. If you have a job that requires crazy hours and lots of travel, you may want to switch to a less-stressful job. Try simplifying your everyday life. One would say, become a minimalist. Did this help?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1606710990240",
+      "conditions": "#Bipolar_Disorder || #UserResponse_Negative || @Bipolar_Disorder || @User_Not_Affirmative",
+      "dialog_node": "node_7_1606722215850"
+    },
+    {
+      "type": "standard",
+      "title": "Is not BPD - 5",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1606710391478",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1606711494181"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_7_1606733283206",
+      "previous_sibling": "node_8_1606710453204"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 1 worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Glad could help :-)"
+              },
+              {
+                "text": "Awesome!!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606713926463",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_7_1606735375431",
+      "previous_sibling": "node_8_1606714176317"
+    },
+    {
+      "type": "standard",
+      "title": "IS not ADHD Solution 4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah, the rebel inside us, ensuring that we ignore instructions. More often than not it has caused us problems. The best way to tackle the same is to simplify the instructions. More daunting the instruction more we try to avoid. Simplifying them ensures that we follow the instructions "
+              },
+              {
+                "text": "Every time you feel like avoiding the instruction, look at the consequences which would occur if you do not fulfil it. Always assume that the worst is going to happen. Because Life is Unfair. If that doesn't scare you, well the consequences which you will be facing should"
+              },
+              {
+                "text": "Unable to complete tasks because they are boring and tedious. And let's be honest our cupboard needs to be rearranged just when we sit to complete our homework. Been there done that. Well, the simplest solution which worked for the majority of people is dividing the task into smaller pieces and completing them like a quest. A video game. Reward yourself after completion of the task. Remember only after completion of task"
+              },
+              {
+                "text": "Tried dividing the daunting tasks into sizeable chunks and still failed to complete. Try negative reinforcement technique. Pick your prized possession, say PS5, hand it over to someone whom you trust. Inform them about the task which you plan to complete and tell them to not give you back your prized possession till you complete the task. Voila, you will try completing the task"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1606717731505",
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_7_1606737508250",
+      "previous_sibling": "node_8_1606717806114"
+    },
+    {
+      "type": "standard",
+      "title": "Therapist Denied",
+      "parent": "node_4_1606674712282",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1606738258244"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_7_1606738400914"
+    },
+    {
+      "type": "standard",
+      "title": "How are you feeling?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you feeling dizzy?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@ADHD || @Bipolar_Disorder || @Depression || @Generalised_Anxiety_Disorder || @Panic_Attack || @PTSD",
+      "dialog_node": "node_8_1606649209767",
+      "previous_sibling": "node_9_1606649152868"
+    },
+    {
+      "type": "standard",
+      "title": "BPD_Diagonosis_5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you indulge in  risky behaviour, such as having impulsive sex, gambling with life savings, or going on big spending sprees?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1606710391478",
+      "conditions": "#Bipolar_Disorder || @Bipolar_Disorder || #UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_8_1606710453204"
+    },
+    {
+      "type": "standard",
+      "title": "How are you currently feeling?(GAD)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you suffering from stomach or feeling nauseous?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606649209767",
+      "conditions": "#Diagonise_Generalised_Anxiety_Disorder || @Generalised_Anxiety_Disorder || #UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_8_1606711494181",
+      "previous_sibling": "node_4_1606710157384"
+    },
+    {
+      "type": "standard",
+      "title": "GAD_Diagonosis_4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you experiencing breathlessness or trembling or any kind of muscle tension?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1606711681497",
+      "conditions": "#UserRespone_Affirmative || @Generalised_Anxiety_Disorder || #Diagonise_Generalised_Anxiety_Disorder || @User_Affirmative",
+      "dialog_node": "node_8_1606711930339"
+    },
+    {
+      "type": "standard",
+      "title": "PTSD_Diagonised_1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You are suffering from PTSD, Do not panic. I will guide you through this turbulent time, Ok. Let's start with mindful meditation to take our mind off.  Close your eyes. Place your one hand on the belly and one on your chest. Now take a deep breath. Hold it for a second and slowly breathe out. Concentrate on your breathing. Feel the fresh air entering your lungs and filling your body and mind. With every exhale let go of your worries with it. Repeat this process till you feel calm and collected. Feeling better?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1606713789714",
+      "conditions": "#UserRespone_Affirmative || #PTSD || @PTSD || @User_Affirmative",
+      "dialog_node": "node_8_1606713926463"
+    },
+    {
+      "type": "standard",
+      "title": "PTSD_Diagonised_2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, We have tons of other exercises to help. Let's try a physical activity. Something which you enjoy could be simply walking or some sports like football. This will help you deviate your thoughts to something much more productive. When performed regularly at the same time and place will help you to reduce their levels of stress and cope with their symptoms. Did this work?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606713926463",
+      "conditions": "@PTSD || #PTSD || #UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_8_1606714176317"
+    },
+    {
+      "type": "standard",
+      "title": "PTSD_Diagonised_4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's try Art therapy. It works wonders in providing a safe outlet for our emotions. You draw or paint your emotions, need not have to be beautiful. Just pick a paper and some writing utensils and get on with it. Or else write in your jounal. Journals don’t have to just be based around words. You can make an art journal as well, that lets you visually express your emotions. Or else write a postcard you will never send. Are you still angry or upset with someone in your life? Create a postcard that expresses this, though you don’t have to ever send it.Just find a way to express your feelings. Did it help?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1606714376019",
+      "conditions": "#PTSD || @PTSD || #UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_8_1606714627264"
+    },
+    {
+      "type": "standard",
+      "title": "How are you currently feeling?(Depression)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you feeling sad or hopeless for long periods of time?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606649209767",
+      "conditions": "#Depression || @Depression || #UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_8_1606714924974",
+      "previous_sibling": "node_2_1606713235620"
+    },
+    {
+      "type": "standard",
+      "title": "ADHD_Diagonosis_4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you constantly change your activity or task before you even complete it?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1606717731505",
+      "conditions": "#ADHD || #UserRespone_Affirmative || @ADHD || @User_Affirmative",
+      "dialog_node": "node_8_1606717806114"
+    },
+    {
+      "type": "standard",
+      "title": "ADHD_Diagonised_3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Did not calm your racing mind, try this to check if it helps.Mindfulness and meditation. It helps in reducing stress, regular mindfulness meditation can help you to better resist distractions, lower impulsivity, improve your focus, and provide more control over your emotions. Since hyperactivity symptoms can make meditation a challenge for some adults with ADHD, starting slowly can help. Meditate for short periods it could be five dedicated minutes of your day and gradually increase your meditation time as you become more comfortable with the process—and are better able to maintain focus. The key is to then draw on these mindfulness techniques during your daily life to keep you on track. Try guided meditation, which allows you to focus on the voice of the person. This gives your restless mind some activity, thus leading to a better result. Did this help?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1606718409159",
+      "conditions": "#ADHD || #UserResponse_Negative || @ADHD || @User_Not_Affirmative",
+      "dialog_node": "node_8_1606718569974"
+    },
+    {
+      "type": "standard",
+      "title": "ADHD_Diagonised_4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's try mindful eating. Nutrition often plays a very important part of our behaviour. Excessive fat makes us sluggish and Sugar rush makes us hyperactive. Consume less amount of unhealthy amount of high carb and sugary foods and increase your intake of fluids.  Try to gradually decrease sugar, caffeine, and carbohydrate intake. Consider carrying pre-packaged, portion-controlled, and protein-rich snacks such as natural peanut butter, natural cheese sticks, or nuts. Did this help?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606718569974",
+      "conditions": "#ADHD || @ADHD || #UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_8_1606718779349"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 2 worked ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad I could Help :-)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606722512348",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_8_1606733414601",
+      "previous_sibling": "node_6_1606710774443"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 1 Worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad could help :-)"
+              },
+              {
+                "text": "Awesome!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606716406666",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_8_1606735730082",
+      "previous_sibling": "node_10_1606716702656"
+    },
+    {
+      "type": "standard",
+      "title": "Is not ADHD Solution 1 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tough times are often a part and parcel of our life. And a feeling of being lost, tired and alone often creeps upon us. But, hey, a little sleep, some healthy food like fresh fruits and vegetables and exercise can do wonders for us!"
+              },
+              {
+                "text": "Just wishing back to go back in time, the one where you only worried about missing pokemon. Life can be worrisome. Life can be burdening. But the game of life can be easily won, by using the cheat code, self-care. Let your self free just for today evening. Pick up your phone and put on some pokemon. Indulge in your favourite treat. Call that friend and gossip about your past reminiscent. Because at the end of the day, it is just a day and tomorrow you get a new opportunity to build yourself up !!!"
+              },
+              {
+                "text": "Feelings like nothing is going along our way. Everyone had to overcome this challenge at least once. Some people go through this almost for every new activity they perform The best remedy is coffee contains caffeine, which can reduce the tightness in the muscles present in the airway. This remedy has proven to be quite effective for people suffering from Asthma. Black coffee can improve lungs function and help you calm yourself dow. But avoid it if it does not suit you"
+              },
+              {
+                "text": "Try this for immediate relief: A simple breathing technique to help you. It can slow your pace of breathing, making each breath deeper and will provide you comfort. Here is how you can do it.\n\nStep 1: Sit down on the floor or a chair in a comfortable position with your back straight.\n\nStep 2: Slowly inhale through your nose for 4 to 5 seconds. Fill your abdomen with the air, instead of your lungs.\n\nStep 3: Purse your lips and breathe out for 4 to 6 seconds.\n\nStep 4: Repeat the same 10 to 20 times to return to a normal state."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1606717573828",
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_8_1606736001860",
+      "previous_sibling": "node_9_1606717668250"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 1 worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Awesome! Now remember to keep applying this solution."
+              },
+              {
+                "text": "Great! Glad could help :-)"
+              },
+              {
+                "text": "I am so happy. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606717854792",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_8_1606738106800",
+      "previous_sibling": "node_6_1606717916169"
+    },
+    {
+      "type": "standard",
+      "title": "Therapist Denied",
+      "parent": "node_1_1606717446215",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1606738258244"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_8_1607180114880",
+      "previous_sibling": "node_3_1607180089401"
+    },
+    {
+      "type": "standard",
+      "title": "Therapist Requested",
+      "parent": "node_2_1606718993470",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1606726426203"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_8_1607180202107"
+    },
+    {
+      "type": "standard",
+      "title": "How are you feeling?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Would you like to share"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Positive",
+      "dialog_node": "node_9_1606649152868",
+      "previous_sibling": "node_3_1607168307049"
+    },
+    {
+      "type": "standard",
+      "title": "GAD_Diagnosed",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You are suffering from General Anxiety Disorder. Do not panic we will walk you through this. Let's try calming ourself down. Okay? Let's try to return back to the present. Look at anything that relaxes you or makes you smile: a beautiful view, family photos, cat pictures on the Internet. or Listen to soothing music, sing a favorite tune, or play a musical instrument. Or enjoy the relaxing sounds of nature (either live or recorded): ocean waves, wind through the trees, birds singing or Light scented candles. Smell the flowers in a garden. Breathe in the clean, fresh air. Spritz on your favorite perfume or Slowly eat a favorite treat, savoring each bite. Sip a hot cup of coffee or herbal tea. Chew on a stick of gum. Enjoy a mint or your favorite hard candy. Are you feeling a little in control?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1606712013722",
+      "conditions": "#Diagonise_Generalised_Anxiety_Disorder || @Generalised_Anxiety_Disorder || #UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_9_1606712119368"
+    },
+    {
+      "type": "standard",
+      "title": "GAD_Diagonised_2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's try this. Lie down on a flat surface if possible and put one hand on your belly and the other on your chest. Take a slow breath in. Make sure it fills your belly enough that you can feel it rise slightly. Hold it for a second, then slowly let it out. Repeat this process till you feel like you are in control. Did this help?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606712119368",
+      "conditions": "#Diagonise_Generalised_Anxiety_Disorder || #UserResponse_Negative || @Generalised_Anxiety_Disorder || @User_Not_Affirmative",
+      "dialog_node": "node_9_1606712467044"
+    },
+    {
+      "type": "standard",
+      "title": "PTSD_Diagonosis_4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you finding it difficult to maintain a close relationship or feeling detached from family and friends?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1606713617269",
+      "conditions": "#PTSD || @PTSD || #UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_9_1606713676624"
+    },
+    {
+      "type": "standard",
+      "title": "Depression_diagonised 4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you having problems with memory, concentration, and decision making?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1606716254546",
+      "conditions": "#Depression || @Depression || #UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_9_1606716311771"
+    },
+    {
+      "type": "standard",
+      "title": "Depression_diagonised 5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you thinking about or attempting suicide, or having a preoccupation with death?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606716311771",
+      "conditions": "#Depression || @Depression || #UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_9_1606716357941"
+    },
+    {
+      "type": "standard",
+      "title": "ADHD_Diagonosis_2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you find it difficult to stick and complete to tasks that are tedious or time-consuming?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1606717573828",
+      "conditions": "#ADHD || @ADHD || #UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_9_1606717668250"
+    },
+    {
+      "type": "standard",
+      "title": "BPD_Diagonised",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You are suffering from Bipolar Disorder. Do not panic, We will get you through. A healthy diet is the first step towards tackling this issue. There are several supplements to help. These supplements include Omega-3 obtained from fish oil extracts, magnesium supplements, vitamin C and folic acid? Add them to your daily food intake. Also avoid triggers such as caffeine, alcohol or drug use, and stress. Feeling Better?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606710453204",
+      "conditions": "#Bipolar_Disorder || @Bipolar_Disorder || #UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_9_1606722512348"
+    },
+    {
+      "type": "standard",
+      "title": "Therapist Requested",
+      "output": {
+        "generic": [
+          {
+            "title": "Name of the Therapist",
+            "options": [
+              {
+                "label": "Mr. XYZ - 9874562102",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Ms. Quella - 234565987",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "7 Cups - www.7cups.com",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_9_1606726426203",
+      "previous_sibling": "node_8_1606649209767"
+    },
+    {
+      "type": "standard",
+      "title": "Is not BPD",
+      "parent": "node_4_1606710157384",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1606711494181"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_9_1606733179100",
+      "previous_sibling": "node_10_1606710243834"
+    },
+    {
+      "type": "standard",
+      "title": "Solution 3 worked",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad I could Help :-)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606710774443",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1606656589432"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_9_1606733441666",
+      "previous_sibling": "node_4_1606710990240"
+    },
+    {
+      "type": "standard",
+      "title": "Is not GAD",
+      "parent": "node_8_1606711494181",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1606713235620"
+      },
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_9_1606734137385",
+      "previous_sibling": "node_7_1606711591373"
+    },
+    {
+      "type": "standard",
+      "title": "Is not ADHD solution 5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sparking thing Syndrome, jumping from task to task. In a hurry to complete the same. Being restless. And once the task becomes boring, tedious or time-consuming pick the next shiny thing. No more. Make a list of all the incomplete tasks. Remember, Completed is much better than perfection. Pick the most complete task and start working on it. And tell everyone about it. Make your self accountable. Announce on all the social media sites. So much that the shame of not completing the task would be worse than putting up a shody job!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606717806114",
+      "conditions": "#UserResponse_Negative || @User_Not_Affirmative",
+      "dialog_node": "node_9_1606737884877",
+      "previous_sibling": "node_6_1606717854792"
+    },
+    {
+      "type": "standard",
+      "title": "Requested For a therapist",
+      "parent": "node_1_1607177198236",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1606726426203"
+      },
+      "conditions": "#UserRespone_Affirmative",
+      "dialog_node": "node_9_1607177238659"
+    },
+    {
+      "type": "standard",
+      "title": "Therapist Requested",
+      "parent": "node_3_1606713150731",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1606726426203"
+      },
+      "conditions": "#UserRespone_Affirmative || @User_Affirmative",
+      "dialog_node": "node_9_1607184504915"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I am A.P.U, your virtual Psychologist. How are you feeling today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "chutiya"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Virtual Psychologist",
+  "language": "en",
+  "description": ""
+}
